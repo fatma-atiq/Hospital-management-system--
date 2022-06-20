@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doctor Uptate </title>
+
+    
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<script src="
+	https://kit.fontawesome.com/a076d05399.js">
+	</script>
+ <style>
+    section{
+
+display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #fff;
+    box-sizing: border-box;
+ 
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.right{
+    display: inline;
+    height: 100px;
+
+}
+
+li a:hover {
+    background-color: #0fcdee;
+    color: #fff;
+}
+.icon {
+    margin-right: 10px;
+}
+.main{
+    background-color: #0fcdee;
+   width: 300px;
+}
+.hedderh1 {
+    padding-right: 190px;
+    padding-top: 10px;
+    padding-left: 10px;
+font-size: 2em;
+margin: 0.67em 0;
+display: inline;
+}
+.container{
+border-radius: 5%;
+padding: 50px;
+margin-right: 10px;
+}
+.thre{
+
+text-align: center;
+display: inline-block;
+width: 22%;
+margin: 10px;
+margin-top: 20px;
+box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+padding: 20px;
+}
+.thre .icon{
+font-size: 40px;
+
+}
+
+
+form{
+width: 80%;
+position: relative;
+margin-bottom: 10%;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email]{
+width: 90%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+
+
+button {
+background-color:#362ae2;
+color: #fff;
+border: none;
+cursor: pointer;
+height: 30px;
+width: 50px;
+float: right;
+}
+/* set a hover effect for the button*/
+p.aa{
+text-align: center;
+}
+button:hover {
+opacity: 0.8;
+}
+fieldset{
+border-radius: 2%;
+}
+legend {
+color: #362ae2;
+}
+
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+ </style>
+</head>
+<body style="background-image: url(img/bg-2.jpg);">
+    <section style="  width: 30%; display: block; ">
+     <div class="right">
+            <div class="HMS"style="background-color:#fff ;font-size: 15px;width: 73%;">
+            <h1 class="hedderh1" style="color:black;">HMS</h1>
+            <i class="fa fa-bars icon"></i>
+        </div>
+        <div class="main">
+            <p style="padding: 5px;">Main navigations</p>
+        </div>
+        <ul>
+            <li><a href="#" class="active">
+            <i style=" color: blue;" class="fa fa-home icon"></i>
+            dashboard</a></li>
+            <hr>
+            <li><a href="#">
+                <i  style=" color: blue;" class="fas fa fa-list icon"></i>
+                Appointment History</a></li>
+                <hr>
+            <li><a href="#">
+            <i style=" color: blue;" class="fas fa fa-user icon"></i>
+            patient</a></li>
+            <hr>
+            <li><a href="#">
+                <i  style=" color: blue;" class="fas fa fa-search icon"></i>
+                search</a></li>
+        </ul>
+        </div>
+    </section>
+    <div>
+        <h2 style="padding-top: 6px;width: 74%;padding-left: 7px;margin-top: auto;
+        background-color: rgb(247, 245, 243);margin-left: 25%;margin-top: -20%;">DOCTOR| Edit Doctor Details</h2>
+          
+</div>
+    <div style="margin-left: 30%; ">
+    <form action="/action_page.php">
+        <div class="register">
+                <div class="container"  >
+            <fieldset >
+                <legend > Up-date</legend>
+                   
+                    <p> Edit Doctor<br></p>
+                    <p>abc's Profile <br>
+                    Profile Reg.Date:2019-9-25 <br>
+                    Profile Last Updation.Date:2020-9-25 </p>
+                    
+                    <label>Doctor Name</label><br>
+                    <input type="text" placeholder="full name" name="cname" required>
+                    <br>
+                    <label>Doctor clinic Address</label><br>
+                    <input type="text" placeholder="Address" name="caddress" required>
+                    <br>
+                    <label>Doctor fees </label><br>
+                    <input type="number" placeholder="fees"  >
+                    <br>
+                    <label>Doctor Contact no </label><br>
+                    <input type="number" placeholder="number"  >
+                    <br>
+                    <label>Doctor Email</label><br>
+                    <input type="email" placeholder=" email" name="email" required>
+                    <br>
+                    <button type="submit" style="width: 20%;">Up-date</button>
+                </div>
+            </div>
+                
+            </form>
+          </div>
+          <footer style="background-color: #325C6A; height: 40px; width: 1000;"> 
+            <p class="aa" style="padding-top: 10px;"> © 2021 HMS All rights reserved</p>
+        </footer>
+    </body>

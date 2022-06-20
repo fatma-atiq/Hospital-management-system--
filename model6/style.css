@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.mypage{
+    background-image: url('images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.navbar{
+    overflow: hidden;
+    padding: 15px 20px;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+    right: 0;
+    z-index: 20;
+}
+
+.navbar .logo{
+    float: left;
+}
+.navbar .logo  a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .list-links{
+    float: right;
+
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+.navbar .list-links .item-list{
+    display: inline-block;
+    margin-right: 15px;
+}
+.navbar .list-links .item-list a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s;
+}
+
+.navbar .list-links .item-list a:hover{
+    color: #09c;
+}
+.clearfix{
+    clear: both;
+}
+
+.mycontent{
+    padding: 230px 50px;
+}
+
+.mycontent h2{
+    text-align: center;
+    color: #000;
+}
+
+.mycontent .item{
+text-decoration: none;
+}
+
+
+
+
+/* xrays page */
+
+.machine{
+    background-image: linear-gradient(to right,#b6d0f1,#458ce7,#093c7e);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.machine .owl-carousel{
+    margin: 70px auto;
+}
+
+.machine .owl-carousel img{
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .navbar .logo  a{
+
+        font-size: 16px;
+
+    }
+    .navbar .list-links .item-list a{
+
+        font-size: 14px;
+
+    }
+
+    .machine .owl-carousel{
+        margin: 20px auto;
+    }
+}
+
+.machine h3{
+    text-align: center; 
+    margin:  60px auto; 
+    color: rgb(255, 240, 240); 
+    font-size: 30px; 
+    font-weight: 700;
+    }

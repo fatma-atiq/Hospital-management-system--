@@ -1,0 +1,140 @@
+nav p{
+    padding-top: 20px;
+    font-size: 25px;
+    color: #362ae2;
+}
+ul{
+    float: right;
+    display: flex;
+    padding: auto;
+}
+li{
+    padding: 25px 15px;
+    list-style: none;
+}
+a{
+    color: rgb(49, 49, 233);
+}
+ul li.active {
+    padding: 8px;
+}
+ul li.active a {
+    color: rgb(201, 17, 17);
+}
+
+form{
+    width: 60%;
+    position: relative;
+}
+
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+i{
+    color:blue;
+    position: absolute;
+    left: 9%;
+    top: 34%;
+    bottom: 33%;
+}
+#i2{
+    color:blue;
+    position: absolute;
+    left: 9%;
+    top: 48%;
+    bottom: 33%; 
+}
+#lock_recovry{
+    color:blue;
+    position: absolute;
+    left: 9%;
+    top: 38%;
+    bottom: 33%;
+}
+#i3_recovry{
+    color:blue;
+    position: absolute;
+    left: 9%;
+    top: 53%;
+    bottom: 33% 
+}
+button {
+    background-color:#362ae2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    float: right;
+}
+.login{
+    background-color:#362ae2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    float: right;
+}
+/* set a hover effect for the button*/
+p.aa{
+    text-align: center;
+}
+button:hover {
+    opacity: 0.8;
+}
+fieldset{
+    border-radius: 2%;
+}
+legend {
+color: #362ae2;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+.container {
+    padding: 50px;
+}
+
+
+span.psw {
+    color: blue;
+    padding: 14px 20px;
+    margin: 8px 0;
+}
+
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
